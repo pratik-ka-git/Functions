@@ -1,0 +1,22 @@
+#Functions
+
+def gmean(a, b):
+    mean = (a*b)/(a+b)
+    print(mean)
+
+a = 1
+b = 2
+    
+gmean(a, b)
+
+c = 10
+d = 12
+
+gmean(c, d)
+
+def name(fname, lname):
+    print("Hello,", fname, lname)
+
+name("Sam", "Wilson")
+
+name("a", "b")
